@@ -357,7 +357,11 @@ img {
 }
 .footer__title {
   font-size: 2rem;
+  color: white;
   margin-bottom: var(--mb-4);
+}
+.footer__title:hover {
+  color: var(--first-color);
 }
 .footer__social {
   margin-bottom: var(--mb-4);
